@@ -1,0 +1,121 @@
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body {
+    height: 100%;
+}
+
+.logo-titulo {
+    padding-left: 5px;
+    padding-top: 0.5%;
+    color: white;
+}
+
+.navBar {
+    height: auto;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.telaInteira {
+    height: 100vh;
+}
+
+.TextSobre {
+    width: 50%; /* Ajustado para ocupar 90% da largura */
+    font-size: 1em; /* Ajustado o tamanho da fonte */
+    text-align: justify;
+    color: #212529;
+}
+
+.flex-coluna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+}
+
+#carouselExample {
+    max-width: 100%;
+    width: 80%; /* Ajustado para ocupar 80% da largura */
+    margin: 5% auto; /* Centralizado verticalmente e ajustado a margem */
+}
+
+.carrosel-works {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: #212529;
+    color: white; /* Adicionado a cor do texto */
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.carousel-background {
+    background-repeat: no-repeat;
+    transition: background 0.5s ease-in-out;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.icones-contato {
+    margin-top: 2%; /* Ajustado para 2% */
+}
+
+.icone {
+    height: 60px;
+    width: 200px;
+    padding: 2%;
+    margin-left: 3%; 
+    font-size: 20px; 
+    color: white;
+    background-color: #212529;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.icone:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+
+    box-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000;
+}
+
+.email {
+    padding-left: 5px;
+}
+
+.hr {
+    width: 90%;
+    border-top: 1px solid #212529;
+}
+
+.copyright {
+    font-size: 2vh;
+    margin-top: 3vh;
+    margin-bottom: 8vh;
+}
+
+footer {
+    color: #212529;
+    height: auto;
+}
